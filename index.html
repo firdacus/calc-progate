@@ -1,41 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Kalkulator - Firdaus Hasan</title>
-    <link rel="stylesheet" href="assets/style.css">    
+    <meta charset="utf-8" />
+    <title> Kalkulator Sederhana </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <div class="flex-container-column card">
-        <div class="display">
-            <h1 id="displaynumber">0</h1>
-        </div>
-        <div class="flex-container-row">
-            <div class="button">7</div>
-            <div class="button">8</div>
-            <div class="button">9</div>
-            <div class="button negative">+/-</div>
-        </div>
-        <div class="flex-container-row">
-            <div class="button">4</div>
-            <div class="button">5</div>
-            <div class="button">6</div>
-            <div class="button operator">-</div>
-        </div>
-        <div class="flex-container-row">
-            <div class="button">1</div>
-            <div class="button">2</div>
-            <div class="button">3</div>
-            <div class="button operator">+</div>
-        </div>
-        <div class="flex-container-row">
-            <div class="button clear">CE</div>
-            <div class="button">0</div>
-            <div class="button equals double">=</div>
-        </div>
+
+
+<div class="calculator">
+
+    <div class="userInput"><p class="userEntry"></p><p class="finalCalc"></p></div>
+
+    <div class="calcButtons">
+    
+
+       
+        <button>AC</button>
+        <button>DEL</button>
+        <button>%</button>
+        <button class="operator">*</button>
+
+        <button class="number">1</button>
+        <button class="number">2</button>
+        <button class="number">3</button>
+        <button class="operator">+</button>
+
+        <button class="number">4</button>
+        <button class="number">5</button>
+        <button class="number">6</button>
+        <button class="operator">/</button>
+    
+        <button class="number">7</button>
+        <button class="number">8</button>
+        <button class="number">9</button>
+        <button class="operator">-</button>
+
+    
+        <button class="number">0</button>
+        <button class="decimal">.</button>
+        <button class="operator">=</button>
+
+
     </div>
+</div>
+
+<script src="script.js"></script>
+
 </body>
-<script src="assets/kalkulator.js"></script>
 </html>
