@@ -13,7 +13,7 @@ button {
     margin: 5px;
     font-size: 1.2em;
     border-style: none;
-    background-color: blue;
+    background-color: cyan;
 }
 
 
@@ -46,7 +46,7 @@ button:hover {
 }
 
 .operator {
-    background-color:blue;
+    background-color:cyan;
 }
 
 .number {
